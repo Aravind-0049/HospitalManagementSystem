@@ -1,15 +1,29 @@
 # Hospital Management System — Full Stack Java Project
 
-## Technology
-- **Frontend:** HTML5, CSS3, JavaScript (Fetch API, Responsive Grid)
+## 🛠️ Technology Stack
+- **Frontend:** HTML5, CSS3, JavaScript (Fetch API, Responsive Layout)
 - **Backend:** Java 21, Spring Boot 4.x, Spring Data JPA, Hibernate, Maven
 - **Database:** In-memory H2 Database (MySQL compatibility mode)
 
 ---
 
-## 🌐 Live Project Link
-- **Live Application:** [https://hospital-management-system-backend-6-iats.onrender.com](https://hospital-management-system-backend-6-iats.onrender.com)
-- **GitHub Repository:** [https://github.com/Aravind-0049/HospitalManagementSystem](https://github.com/Aravind-0049/HospitalManagementSystem)
+## 🌐 Project Links
+
+### 🖥️ Frontend (User Portal)
+- **Live Portal Link:** [https://hospital-management-system-backend-6-iats.onrender.com](https://hospital-management-system-backend-6-iats.onrender.com)
+- **Frontend Source Code:** [View Frontend on GitHub](https://github.com/Aravind-0049/HospitalManagementSystem/tree/main/frontend)
+
+### ⚙️ Backend (REST API Service)
+- **Live Backend API Root:** [https://hospital-management-system-backend-6-iats.onrender.com/api](https://hospital-management-system-backend-6-iats.onrender.com/api)
+- **Backend Health / Status:** [https://hospital-management-system-backend-6-iats.onrender.com/api/status](https://hospital-management-system-backend-6-iats.onrender.com/api/status)
+- **Backend Source Code:** [View Backend on GitHub](https://github.com/Aravind-0049/HospitalManagementSystem/tree/main/backend)
+
+### 🔗 API Endpoints
+- **Dashboard Overview:** `GET /api/dashboard`
+- **Patient Management:** `GET /api/patients` | `POST /api/patients`
+- **Doctor Management:** `GET /api/doctors` | `POST /api/doctors`
+- **Appointments:** `GET /api/appointments` | `POST /api/appointments`
+- **Billing:** `GET /api/billing` | `POST /api/billing`
 
 ---
 
